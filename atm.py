@@ -12,9 +12,7 @@ password=4567
 name=input('please enter your name')
 pin=int(input('please enter your atm pin'))
 
-
 if pin==password:
-
     while True:
         print('*****Welcome to BANK OF MUMBAI*****')
         print('hello',accountholdername)
@@ -68,7 +66,13 @@ if pin==password:
             break
 
 else:
-    print('oops!! wrong pin')
+    print('wrong pin')    
+
+
+
+
+
+
 
 
 
